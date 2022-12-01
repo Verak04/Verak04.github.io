@@ -1,0 +1,65 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/waltograph-disney" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/rich-eatin" type="text/css"/>
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Memorama</title>
+</head>
+
+<body id="body_memorama">
+    <header>
+
+    </header>
+    <nav>
+        <button class="boton_salir"><a href="/index.html">Salir</a></button>
+    </nav>
+    <main>
+        <section id="juego">
+            <div id="formulario_usuario">
+
+            </div>
+
+            <h2 id="titulo_dificultad">D I F I C U L T A D </h2>
+            <div id="div_dificultad">
+                <div>
+                    <button class="div_dificultad" onclick="nombre_usuario(3,6)">
+                        <h3>Muy Facil</h3>
+                        <h4>6 Cartas</h4>
+                    </button>
+
+                </div>
+                <div>
+                    <button class="div_dificultad" onclick="nombre_usuario(6,12); return false()">
+                        <h3>Facil</h3>
+                        <h4>12 Cartas</h4>
+                    </button>
+                </div>
+                <div>
+                    <button class="div_dificultad" onclick="nombre_usuario(12,24); return false()">
+                        <h3>Intermedio</h3>
+                        <h4>24 Cartas</h4>
+                    </button>
+                </div>
+                <div>
+                    <button class="div_dificultad" onclick="nombre_usuario(24,48); return false()">
+                        <h3>Dificil</h3>
+                        <h4>48 Cartas</h4>
+                    </button>
+
+                </div>
+            </div>
+
+        </section>
+        </div>
+    </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../js/memorama.js"></script>
+</body>
+
+</html>

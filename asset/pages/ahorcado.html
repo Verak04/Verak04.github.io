@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/ballpoint-pen" type="text/css" />
+    <title>Ahorcado</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <nav >
+        <button class="boton_salir" ><a href="/index.html">Salir</a></button>
+    </nav>
+
+    <main class="posicion">
+        <section>
+            <h1>A H O R C A D O</h1>
+            <div id="section_ahorcado">
+                <div id="jugador_perfil">
+                </div>
+                <div id="central">
+                    <div class="posicion" id="dibujo">
+                        <img src="../img/sin_error.png" alt="">
+                    </div>
+                    <div class="posicion">
+                        <ul class="posicion" id="ahorcado">
+
+                        </ul>
+
+                        <form action="">
+                            <input class="posicion letra" type="text" id="letra">
+
+                            <input type="reset" class="third" value="Enviar" id="enviar" onclick=ahorcado()>
+                        </form>
+                    </div>
+                </div>
+                <div id="puntajes">
+                    <div>
+                        <h2>PUNTAJE</h2>
+                        <h3 id="puntaje">0</h3>
+                    </div>
+                    <div>
+                        <h2>Mejor puntaje:</h2>
+                        <ul>
+                            <li>1ro</li>
+                            <li>2do</li>
+                            <li>3ro</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../js/ahorcado.js"></script>
+</body>
+
+</html>
